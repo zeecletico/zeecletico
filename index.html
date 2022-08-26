@@ -26,7 +26,7 @@
         />
     </head>
 
-    <!-- Google tag (gtag.js) -->
+    <!------------- GOOGLE TAG ------------->
     <script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-8DSY2GL8SD"
@@ -43,8 +43,8 @@
 
     <body>
 
-        <div class="wrapper">
-            <header id="header">
+        <div>
+            <header id="header" class="wrapper">
                 <nav class="container">
 
                     <a class="logo" href="#">Zé<span>Eclético</span></a>
@@ -69,27 +69,29 @@
             </header>
 
             <main>
-                <!-- HOME -->
-                <section class="section" id="home">
-                    <div class="container grid">
-                        <div class="image">
-                            <img
+                <div class="wrapper">
+
+                    <!-- HOME -->
+                    <section class="section" id="home">
+                        <div class="container grid">
+                            <div class="image">
+                                <img
                                 src="fotos/foto1.jpg"
                                 alt="Foto de Zé Eclético"
-                            />
-                        </div>
-
-                        <div class="text">
-                            <h2 class="title">
-                                Música e interação 
-                            </h2>
+                                />
+                            </div>
                             
-                            <h2 class="title">
-                                Ao seu dispor
-                            </h2>
-                            
-                            <p>
-                                O seu evento com o melhor do brega ao pop 
+                            <div class="text">
+                                <h2 class="title">
+                                    Música e interação 
+                                </h2>
+                                
+                                <h2 class="title">
+                                    Ao seu dispor
+                                </h2>
+                                
+                                <p>
+                                    O seu evento com o melhor do Brega ao Pop 
                             </p>
 
                             <p>
@@ -105,33 +107,22 @@
 
                 <!-- ABOUT -->
                 <section class="section" id="about">
-                    <div class="container grid">
-                        <div class="text">
-                            <h2 class="title youtube">Youtube</h2>
-                        </div>
-                    </div>
-
-                    <br />
-
+                    
                     <div class="video">
                         <iframe
-                            src="https://www.youtube.com/embed/d7XNKa_ORQE"
-                            frameborder="0"
+                        src="https://www.youtube.com/embed/d7XNKa_ORQE"
+                        frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
-                        ></iframe>
-                        <br />
+                            ></iframe>
                     </div>
                 </section>
-
+                
                 <div class="divider-1"></div>
 
                 <!-- FOTOS -->
                 <section class="section" id="testimonials">
                     <div class="container">
-                        <header>
-                            <h2 class="title">Fotos</h2>
-                        </header>
                         <div class="testimonials swiper-container">
                             <div class="swiper-wrapper">
                                 <div class="testimonial swiper-slide">
@@ -149,10 +140,10 @@
                 <div class="divider-1"></div>
 
                 <!-- Músicas -->
-                <section class="section">
-                    <div class="container">
+                <section class="section" id="musicas">
+                    <div class="container grid player">
                         <header>
-                            <h2 class="title musicas">Músicas</h2>
+                            <h2 class="title musicas">Panelão</h2>
                         </header>
                         <ol>
                             <li>
@@ -270,14 +261,16 @@
 
                 <div class="divider-1"></div>
 
-                <!-- CONTACT -->
+                <!------------- CONTACT ------------->
                 <section class="section" id="contact">
                     <div class="container grid">
                         <div class="text">
-                            <h2 class="title">Whatsapp!</h2>
+                            
+                            <h2 class="title">Whatsapp</h2>
+
                             <a
-                                href="https://api.whatsapp.com/send?phone=+5511975234787&text=Oi! Gostaria de entrar em contato com o Zé Eclético"
                                 class="button"
+                                href="https://api.whatsapp.com/send?phone=+5511975234787&text=Oi! Gostaria de entrar em contato com o Zé Eclético"
                                 target="_blank"
                                 ><i class="icon-whatsapp"></i> Entrar em
                                 contato</a
@@ -305,39 +298,41 @@
             </main>
 
             <footer>
-                <div class="container grid">
-                    <div class="section">
-                        <div class="brand">
-                            <a class="logo logo-alt" href="#home"
+                <div class="wrapper">
+
+                    <div class="container grid">
+                        <div class="section">
+                            <div class="brand">
+                                <a class="logo logo-alt" href="#home"
                                 >Zé<span>eclético</span>.</a
-                            >
-                            <p>©2022 zeecletico.com.br</p>
-                            <p>Todos os direitos reservados.</p>
-                        </div>
-
-                        <div class="social grid">
-                            <a href="https://instagram.com" target="_blank">
-                                <i class="icon-instagram"></i>
-                            </a>
-                            <a href="https://facebook.com" target="_blank">
-                                <i class="icon-facebook"></i
-                            ></a>
-                            <a
-                                href="https://www.youtube.com/channel/UCVXF0xYtLVVfQmW9K_X-yRw"
-                                target="_blank"
-                                ><i class="icon-youtube"></i
-                            ></a>
-                        </div>
+                                >
+                                <p>©2022 zeecletico.com.br</p>
+                                <p>Todos os direitos reservados.</p>
+                            </div>
+                            
+                            <div class="social grid">
+                                <a href="https://instagram.com" target="_blank">
+                                    <i class="icon-instagram"></i>
+                                </a>
+                                <a href="https://facebook.com" target="_blank">
+                                    <i class="icon-facebook"></i
+                                        ></a>
+                                        <a
+                                        href="https://www.youtube.com/channel/UCVXF0xYtLVVfQmW9K_X-yRw"
+                                        target="_blank"
+                                        ><i class="icon-youtube"></i
+                                            ></a>
+                                        </div>
+                                    </div>
                     </div>
-                </div>
+                    <div>
+                        <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+                    </div>
             </footer>
-        </div>
-
-        <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
-
-        <!-- swiper -->
-        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
+                    
+                    <!-- swiper -->
+                    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        
         <!-- scrollreveal -->
         <script src="https://unpkg.com/scrollreveal"></script>
 
@@ -346,4 +341,5 @@
 
         <script src="play.js"></script>
     </body>
-</html>
+    </html>
+    
