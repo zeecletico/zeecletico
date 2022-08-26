@@ -108,3 +108,11 @@ window.addEventListener('scroll', function () {
   backToTop()
   activateMenuAtCurrentSection()
 })
+
+
+function playAudio(track) {
+  const audio = document.querySelector(`#audio"${track}"]`)
+  audio.currentTime = 0;
+  audio.play()
+}
+
