@@ -395,8 +395,6 @@ align-items: center;
 /*====  TESTIMONIALS / FOTOS ============================ */
 
 #testimonials .container {
-  margin-left: 0;
-  margin-right: 0;
   position: relative;
   overflow: hidden;
 }
@@ -410,8 +408,13 @@ align-items: center;
 /* swiper */
 .swiper-slide {
   height: auto;
-  padding: 4rem 1rem;
+  padding: 4rem 2px;
 }
+
+.swiper-slide img {
+  border-radius: 10px;
+
+.
 
 .swiper-pagination-bullet {
   width: 0.75rem;
