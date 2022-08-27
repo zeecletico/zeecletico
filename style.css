@@ -98,6 +98,10 @@ body {
   );
 }
 
+.bold {
+  font-weight: bold;
+}
+
 /************* LAYOUT *************/
 
 .wrapper {
@@ -365,15 +369,22 @@ nav.show div.icon-close {
 /*====  SERVICES / MÚSICAS ============================ */
 
 #musicas li {
-  margin: 2rem;
-  gap
+  margin: .5rem;
 }
 
 #musicas .container {
 background-color: green;
-border-radius: 10px
-
+border-radius: 10px;
+width: 400px;
+display: flex;
+flex-direction: column;
+align-items: center; 
+gap: 0;
 }
+
+#musicas .title {
+  color: aquamarine;
+}  
 
 
 /*====  TESTIMONIALS / FOTOS ============================ */
