@@ -8,7 +8,7 @@
   */
 }
 
-ul {
+ul, ol {
   list-style: none;
 }
 
@@ -24,7 +24,7 @@ img {
 
 /*====  VARIABLES ============================ */
 :root {
-  --header-height: 8rem;
+  --header-height: 5rem;
 
   /* colors */
   --hue: 200;
@@ -55,6 +55,10 @@ body {
   color: var(--text-color);
   background: var(--body-color);
   -webkit-font-smoothing: antialiased;
+}
+
+main {
+  margin-top: 6rem;
 }
 
 .title {
@@ -98,8 +102,16 @@ body {
   );
 }
 
-.bold {
+.playlist {
+  cursor: pointer;
+}
+
+.playing {
   font-weight: bold;
+}
+
+.notPlaying {
+  font-weight: normal;
 }
 
 /************* LAYOUT *************/
@@ -139,12 +151,15 @@ margin: 0;
 }
 
 #header {
-  border-bottom: 2px solid var(--base-color);
+  border-bottom: 1px solid var(--base-color);
   display: flex;
-
+  position: fixed;
+  top:0;
+  left: 0;
   z-index: 100;
   background-color: var(--body-color);
   width: 100%;
+  padding: 0 10%;
 }
 
 #header.scroll {
@@ -275,9 +290,6 @@ nav.show div.icon-close {
   overflow: hidden;
 }
 
-#home .container {
-}
-
 #home .image {
   position: relative;
 }
@@ -320,11 +332,6 @@ nav.show div.icon-close {
   color: red;
 }
 
-#about .container {
-  
-}
-
-
 .video { 
   position: relative; 
   padding-bottom: 56.25%; 
@@ -362,35 +369,30 @@ nav.show div.icon-close {
   border-radius: 0.25rem;
 }
 
-#about .text {
-
-}
-
 /*====  SERVICES / MÚSICAS ============================ */
 
+#musicas {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+
 #musicas li {
-  margin: .5rem;
+  margin:  .5rem;
 }
 
 #musicas .container {
-background-color: green;
+background-color: rgb(14, 14, 14);
 border-radius: 10px;
-width: 400px;
+width: 300px;
 display: flex;
 flex-direction: column;
-align-items: center; 
-gap: 0;
+align-items: center;
 }
 
-#musicas .title {
-  color: aquamarine;
-}  
 
 
 /*====  TESTIMONIALS / FOTOS ============================ */
-#testimonials {
-  
-}
 
 #testimonials .container {
   margin-left: 0;
@@ -421,9 +423,6 @@ gap: 0;
 }
 
 /*====  CONTACT ============================ */
-#contact .grid {
-
-}
 
 #contact .text {
   display: flex;
@@ -431,8 +430,8 @@ gap: 0;
   align-items:center ;
   
 }
-#contact .button i,
-#contact ul li i {
+
+#contact .button i, #contact ul li i {
   font-size: 1.5rem;
   margin-right: 0.625rem;
 }
