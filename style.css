@@ -108,6 +108,7 @@ main {
 
 .playing {
   font-weight: bold;
+  color: var(--base-color);
 }
 
 .notPlaying {
