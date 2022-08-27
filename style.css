@@ -131,7 +131,7 @@ main {
 }
 
 .section {
-margin: 0;
+margin: 1rem 0;
 }
 
 .section .title {
@@ -319,12 +319,12 @@ nav.show div.icon-close {
     text-align: center;
 }
 
-#home .text h1 {
-  margin: 2rem;
+#home .text h2 {
+  margin: 1rem;
 }
 
 #home .text p {
-  margin-bottom: 2rem;
+  margin: 1rem;
 }
 
 /*====  ABOUT / YOUTUBE============================ */
@@ -338,7 +338,7 @@ nav.show div.icon-close {
   overflow: hidden; 
   max-width: 100%; 
   height: auto;
-  margin-bottom: 2rem; 
+  margin: 2rem 0; 
 } 
 
 .video iframe {
@@ -390,8 +390,6 @@ flex-direction: column;
 align-items: center;
 }
 
-
-
 /*====  TESTIMONIALS / FOTOS ============================ */
 
 #testimonials .container {
@@ -413,8 +411,7 @@ align-items: center;
 
 .swiper-slide img {
   border-radius: 10px;
-
-.
+}
 
 .swiper-pagination-bullet {
   width: 0.75rem;
@@ -462,17 +459,17 @@ footer {
 }
 
 footer.section {
-  padding: 4rem 0;
+  padding: 0;
 }
 
 footer .logo {
   display: inline-block;
-  margin: 1.5rem;
+  margin: 0;
 }
 
 footer .brand p {
   color: var(--text-color-light);
-  margin: 1.5rem;
+  margin: .5rem 0;
 }
 
 footer i {
@@ -483,7 +480,7 @@ footer i {
 footer .social {
   grid-auto-flow: column;
   width: fit-content;
-  margin: 2rem;
+  margin: 2rem 0;
 }
 
 footer .social a {
@@ -643,6 +640,7 @@ footer .social a:hover {
   footer .logo {
     font-size: 3rem;
   }
+
 }
 /* large devices: 1023 > */
 /* large devices: 992 > */

@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
     <head>
-        <!-- PAGE INFO -->
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Zé Eclético</title>
@@ -43,8 +42,7 @@
 
     <body>
 
-        <div>
-            <header id="header" >
+        <header id="header" >
 
                 <nav class="container " >
                     <a class="logo" href="#">Zé<span>Eclético</span></a>
@@ -63,14 +61,15 @@
                     <div class="toggle icon-close"></div>
 
                 </nav>
-            </header>
+        </header>
 
-            <main>
-                <div class="wrapper">
+        <main class="wrapper">
+                <div >
 
                     <!-- HOME -->
                     <section class="section" id="home">
                         <div class="container grid">
+                            
                             <div class="image">
                                 <img
                                 src="fotos/foto1.jpg"
@@ -79,23 +78,19 @@
                             </div>
                             
                             <div class="text">
-                                <h2 class="title">
-                                    Música e interação 
-                                </h2>
+                                <h2 class="title">Música e interação</h2>
                                 
-                                <h2 class="title">
-                                    Ao seu dispor
-                                </h2>
+                                <h2 class="title">Ao seu dispor</h2>
                                 
                                 <p>
                                     O seu evento com o melhor do Brega ao Pop 
-                            </p>
+                                </p>
 
-                            <p>
-                                Com o Compositor e Cantor Zé Eclético
-                            </p>
+                                <p>
+                                    Com o Compositor e Cantor Zé Eclético
+                                </p>
                             
-                            <a class="button" href="#">Whatsapp</a>
+                                <a class="button" href="#">Whatsapp</a>
                         </div>
                     </div>
                 </section>
@@ -107,11 +102,11 @@
                     
                     <div class="video">
                         <iframe
-                        src="https://www.youtube.com/embed/d7XNKa_ORQE"
-                        frameborder="0"
+                            src="https://www.youtube.com/embed/d7XNKa_ORQE"
+                            frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen
-                            ></iframe>
+                        ></iframe>
                     </div>
                 </section>
                 
@@ -133,11 +128,11 @@
                                 </div>
                             </div>
 
-                                        <!-- If we need pagination -->
+                            <!-- If we need pagination -->
                             <div class="swiper-pagination"></div>
 
                         </div>
-                        
+
                     </div>
                 </section>
 
@@ -146,6 +141,7 @@
                 <!-- Músicas -->
                 <section class="section" id="musicas">
                     <div class="container ">
+
                         <header>
                             <h2 class="title">PANELÃO</h2>
                         </header>
@@ -206,6 +202,7 @@
                 <!------------- CONTACT ------------->
                 <section class="section" id="contact">
                     <div class="container grid">
+
                         <div class="text">
                             
                             <h2 class="title">Whatsapp</h2>
@@ -215,73 +212,91 @@
                                 href="https://api.whatsapp.com/send?phone=+5511975234787&text=Oi! Gostaria de entrar em contato com o Zé Eclético"
                                 target="_blank"
                                 ><i class="icon-whatsapp"></i> Entrar em
-                                contato</a
-                            >
+                                contato
+                            </a>
+
                         </div>
 
                         <div class="links">
+
                             <ul class="grid">
                                 <li>
                                     <i class="icon-phone"></i> 11 97523-4787
                                 </li>
+                            
                                 <li>
                                     <i class="icon-map-pin"></i> São Paulo - SP
                                 </li>
+                            
                                 <li>
                                     <i class="icon-mail"></i>
                                     josejustinomusica@gmail.com
                                 </li>
                             </ul>
+
                         </div>
                     </div>
                 </section>
 
                 <div class="divider-2"></div>
-            </main>
 
-            <footer>
+        </main>
+
+        <footer>
                 <div class="wrapper">
 
                     <div class="container grid">
                         <div class="section">
+
                             <div class="brand">
                                 <a class="logo logo-alt" href="#home"
-                                >Zé<span>eclético</span>.</a
-                                >
+                                >Zé<span>Eclético</span></a>
                                 <p>©2022 zeecletico.com.br</p>
                                 <p>Todos os direitos reservados.</p>
                             </div>
                             
                             <div class="social grid">
+
                                 <a href="https://instagram.com" target="_blank">
                                     <i class="icon-instagram"></i>
                                 </a>
-                                <a href="https://facebook.com" target="_blank">
-                                    <i class="icon-facebook"></i
-                                        ></a>
-                                        <a
-                                        href="https://www.youtube.com/channel/UCVXF0xYtLVVfQmW9K_X-yRw"
-                                        target="_blank"
-                                        ><i class="icon-youtube"></i
-                                            ></a>
-                                        </div>
-                                    </div>
+
+                                <a 
+                                    href="https://facebook.com" 
+                                    target="_blank">
+                                    <i class="icon-facebook"></i>
+                                </a>
+                                
+                                <a
+                                    href="https://www.youtube.com/channel/UCVXF0xYtLVVfQmW9K_X-yRw"
+                                    target="_blank">
+                                        <i class="icon-youtube"></i>
+                                </a>
+                                
+                            </div>
+                        </div>
                     </div>
+
                     <div>
-                        <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+                        <a href="#home" class="back-to-top">
+                            <i class="icon-arrow-up"></i>
+                        </a>
                     </div>
-            </footer>
-                    
+
+        </footer>
+
         <!-- swiper -->
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-        
+
         <!-- scrollreveal -->
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!-- main.js -->
         <script src="main.js"></script>
 
+        <!-- play.js -->
         <script src="play.js"></script>
+
     </body>
     </html>
     
