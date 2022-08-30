@@ -128,7 +128,7 @@ main {
 
 .grid {
   display: grid;
-  gap: 0.5rem;
+  gap: 3rem;
 }
 
 .section {
@@ -650,7 +650,7 @@ footer .social a:hover {
 }
 /* large devices: 1023 > */
 /* large devices: 992 > */
-/*
+
 @media (min-width: 992px) {
   :root {
     --title-font-size: 2.25rem;
